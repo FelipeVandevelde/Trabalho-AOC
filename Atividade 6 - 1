@@ -14,7 +14,4 @@ int10
 mov ah,09
 mov al,3
 int10
-mov ah,2
-mov dl,11
-int10
 int20
