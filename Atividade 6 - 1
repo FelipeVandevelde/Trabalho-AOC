@@ -4,32 +4,17 @@ mov dl,f
 mov dh,7
 int10
 mov ah,9
-mov al,02
-mov bl,03
+mov al,2
+mov bl,94
 mov cx,01
 int10
 mov ah,2
 mov dl,10
 int10
 mov ah,09
-mov al,53
+mov al,3
 int10
 mov ah,2
 mov dl,11
-int10
-mov ah,09
-mov al,4d
-int10
-mov ah,2
-mov dl,12
-int10
-mov ah,09
-mov al,41
-int10
-mov ah,2
-mov dl,13
-int10
-mov ah,09
-mov al,52
 int10
 int20
