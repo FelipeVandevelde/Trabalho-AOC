@@ -1,0 +1,47 @@
+mov ah,2
+mov bh,0
+mov dl,f
+mov dh,7
+int10
+mov ah,9
+mov al,32
+mov bl,59
+mov cx,01
+int10
+mov ah,2
+mov dl,10
+int10
+mov ah,09
+mov al,33
+int10
+mov ah,2
+mov dl,11
+int10
+int20
+
+----------------------------
+
+atencao no numero de matricula da 2
+mov ah,2
+mov bh,0
+mov dl,f
+mov dh,7
+int10
+mov ah,9
+mov al,37
+mov bl,59
+mov cx,01
+int10
+mov ah,2
+mov dl,10
+int10
+mov ah,09
+mov al,32
+int10
+mov ah,2
+mov dl,11
+int10
+mov ah,09
+mov al,34
+int10
+int20
